@@ -13,6 +13,7 @@ def get_logger(name="api-test"):
 
         # 文件输出
         log_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "reports")
+        os.makedirs(log_dir, exist_ok=True)
         log_file = os.path.join(log_dir, "test.log")
         file_handler = logging.FileHandler(log_file, encoding="utf-8")
         file_handler.setLevel(logging.DEBUG)
