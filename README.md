@@ -11,6 +11,8 @@
 - PyYAML - 数据驱动
 
 ## 项目结构
+
+```
 api-auto-test/
 ├── api/                    # 接口封装层
 │   ├── base_api.py         # HTTP 方法封装（GET/POST/PUT/DELETE）
@@ -31,6 +33,7 @@ api-auto-test/
 ├── .github/workflows/ci.yml  # GitHub Actions CI
 ├── requirements.txt
 └── README.md
+```
 
 ## 框架特性
 
