@@ -1,0 +1,24 @@
+create_posts:
+  - title: "hello world"
+    body: "first post content"
+    user_id: 1
+  - title: ""
+    body: "empty title test"
+    user_id: 1
+  - title: "special chars !@#$%^&*()"
+    body: "special characters in title"
+    user_id: 2
+  - title: "very long title repeated many times very long title repeated many times"
+    body: "long title test"
+    user_id: 3
+
+invalid_post_ids:
+  - 0
+  - -1
+  - 99999
+  - 999999999
+
+valid_post_ids:
+  - 1
+  - 50
+  - 100
